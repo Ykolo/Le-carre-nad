@@ -30,7 +30,14 @@ export function Hero() {
         </div>
       </Reveal>
       <Reveal step={2} className="relative aspect-4/5 max-h-155">
-        <ImageSlot placeholder="Photo du salon ou d’une coiffure" className="rounded-sm" priority />
+        <ImageSlot
+          src="/images/hero.jpg"
+          alt="Coiffeuse en train de réaliser un brushing"
+          placeholder="Photo du salon ou d’une coiffure"
+          className="rounded-sm"
+          sizes="(min-width: 1024px) 50vw, 100vw"
+          priority
+        />
         <div className="pointer-events-none absolute bottom-7 -left-4.5 bg-lilac px-5 py-4 text-[13px] tracking-[0.2em] uppercase">
           19 rue de Meaux
         </div>
@@ -58,7 +65,7 @@ export function UniversSection() {
             <Reveal key={u.slot} step={1 + i * 0.5}>
               <article className="flex h-full flex-col gap-2.5 bg-lilac p-2.5 text-ink transition-transform duration-350 ease-[cubic-bezier(.2,.7,.2,1)] hover:-translate-y-1.5">
                 <div className="relative aspect-square">
-                  <ImageSlot src={u.src} placeholder={u.placeholder} sizes="(min-width: 1024px) 25vw, 100vw" />
+                  <ImageSlot src={u.src} alt={u.title} placeholder={u.placeholder} sizes="(min-width: 1024px) 25vw, 100vw" />
                 </div>
                 <div className="px-2.5 pt-3.5 pb-4">
                   <p className="mb-2.5 text-xs tracking-[0.3em] text-mauve">{u.num}</p>
@@ -118,7 +125,13 @@ export function SalonSection() {
       className="mx-auto grid max-w-310 items-center gap-14 px-7 py-24 [grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr))]"
     >
       <Reveal className="relative aspect-16/10">
-        <ImageSlot placeholder="Photo de la façade" className="rounded-sm" sizes="(min-width: 1024px) 50vw, 100vw" />
+        <ImageSlot
+          src="/images/salon.jpg"
+          alt="Fauteuils et miroir du salon"
+          placeholder="Photo de la façade"
+          className="rounded-sm"
+          sizes="(min-width: 1024px) 50vw, 100vw"
+        />
       </Reveal>
       <Reveal step={2}>
         <p className={`${eyebrow} mb-5`}>Le salon</p>

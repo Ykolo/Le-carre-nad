@@ -14,10 +14,10 @@ export type Prestation = {
 };
 
 export const univers: Univers[] = [
-  { num: "01", title: "Soins beauté", slot: "u-soins", placeholder: "Photo soins", text: "Soins du visage et esthétique, dans un espace calme." },
-  { num: "02", title: "Femme", slot: "u-femme", placeholder: "Photo coiffure femme", text: "Coupe, couleur et coiffage, du quotidien aux grandes occasions." },
-  { num: "03", title: "Homme", slot: "u-homme", placeholder: "Photo coiffure homme", text: "Coupes et barbe, nettes et précises." },
-  { num: "04", title: "Onglerie", slot: "u-ongles", placeholder: "Photo onglerie", text: "Manucure, pose et nail art." },
+  { num: "01", title: "Soins beauté", slot: "u-soins", placeholder: "Photo soins", src: "/images/soins.jpg", text: "Soins du visage et esthétique, dans un espace calme." },
+  { num: "02", title: "Femme", slot: "u-femme", placeholder: "Photo coiffure femme", src: "/images/femme.jpg", text: "Coupe, couleur et coiffage, du quotidien aux grandes occasions." },
+  { num: "03", title: "Homme", slot: "u-homme", placeholder: "Photo coiffure homme", src: "/images/homme.jpg", text: "Coupes et barbe, nettes et précises." },
+  { num: "04", title: "Onglerie", slot: "u-ongles", placeholder: "Photo onglerie", src: "/images/onglerie.jpg", text: "Manucure, pose et nail art." },
 ];
 
 export const prestations: Prestation[] = [
