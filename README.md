@@ -34,3 +34,18 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Crédits photos
+
+Photos provisoires issues d'[Unsplash](https://unsplash.com) (licence Unsplash, usage libre), stockées dans `public/images/` :
+
+| Fichier | Photo | Auteur |
+| --- | --- | --- |
+| `hero.jpg` | [Femme tenant un sèche-cheveux](https://unsplash.com/photos/WXmHwPcFamo) | Adam Winger |
+| `soins.jpg` | [Masque facial au spa](https://unsplash.com/photos/Pe9IXUuC6QU) | Rosa Rafael |
+| `femme.jpg` | [Coiffeur sèche les cheveux d'un client](https://unsplash.com/photos/FkAZqQJTbXM) | Adam Winger |
+| `homme.jpg` | [Coupe homme aux ciseaux](https://unsplash.com/photos/tgPrIYnW3g4) | Nate Johnston |
+| `onglerie.jpg` | [Manucure en salon](https://unsplash.com/photos/gb6gtiTZKB8) | Giorgio Trovato |
+| `salon.jpg` | [Chaises de salon chez White Vanity](https://unsplash.com/photos/PtOfbGkU3uI) | Guilherme Petri |
+
+À remplacer par de vraies photos du salon (notamment la façade lilas de la section « Le salon »).
